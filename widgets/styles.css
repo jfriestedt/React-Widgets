@@ -46,7 +46,7 @@ body {
   position: relative;
 }
 
-.clock {
+.clock, .weather {
   display: inline-block;
   border: 1px solid black;
   margin: 10px;
