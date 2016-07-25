@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+.tabs > article {
+  /*background-color: white;*/
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  top: 79px;
+  left: 40px;
+  width: 261px;
+  height: 220px;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  color: black;
+}
+
+.tabs > ul > h1{
+  color: black;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px 10px 0px 0px;
+  background: tomato;
+  color: white;
+  transition: all 0.1s ease;
+}
+
+.tabs > ul > h1:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.tabs > ul > h1.selected{
+  cursor: default;
+  background: white;
+  color: black;
+}
+
+.tabs {
+  position: relative;
+}
+
+.clock {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  background: tomato;
+  color: white;
+}
