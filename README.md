@@ -1,11 +1,11 @@
 # React-Widgets
 
+A collection of widgets made using React.js
+
 ## Getting Started
 
 Clone this repo, start a locally hosted server, and open index.html to launch React Widgets!
 (A hosted Github Page is coming soon.)
-
-A collection of widgets made using React.js
 
 ## Weather
 
